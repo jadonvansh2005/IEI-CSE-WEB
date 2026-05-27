@@ -30,7 +30,7 @@ function AdminSignup() {
       setLoading(true);
 
       const response = await axios.post(
-        "http://localhost:5000/api/admin/signup",
+        `${import.meta.env.VITE_API_URL}/api/admin/signup`,
         {
           name,
           email,

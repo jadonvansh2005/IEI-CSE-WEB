@@ -188,7 +188,7 @@ function Profile() {
                     </div>
 
                     <a
-                      href={`http://localhost:5000/${certificate.certificateUrl}`}
+                      href={`${import.meta.env.VITE_API_URL}/${certificate.certificateUrl}`}
                       target="_blank"
                       rel="noreferrer"
                       className="text-xs font-bold text-blue-600 hover:text-blue-700 tracking-wide font-heading inline-flex items-center gap-1 group w-fit"

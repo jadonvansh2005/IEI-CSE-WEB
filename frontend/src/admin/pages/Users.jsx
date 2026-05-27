@@ -26,7 +26,7 @@ function Users() {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/users",
+        `${import.meta.env.VITE_API_URL}/api/users`,
         {
           headers: {
             Authorization: `Bearer ${adminToken}`
@@ -73,7 +73,7 @@ function Users() {
       const response =
         await axios.put(
 
-          `http://localhost:5000/api/users/role/${id}`,
+          `${import.meta.env.VITE_API_URL}/api/users/role/${id}`,
 
           {
             role: newRole
@@ -118,7 +118,7 @@ function Users() {
       const response =
         await axios.put(
 
-          `http://localhost:5000/api/users/${endpoint}/${id}`,
+          `${import.meta.env.VITE_API_URL}/api/users/${endpoint}/${id}`,
 
           {},
 
@@ -160,7 +160,7 @@ function Users() {
       const response =
         await axios.delete(
 
-          `http://localhost:5000/api/users/${id}`,
+          `${import.meta.env.VITE_API_URL}/api/users/${id}`,
 
           {
             headers: {

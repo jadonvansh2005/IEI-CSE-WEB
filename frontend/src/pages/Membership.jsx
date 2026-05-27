@@ -47,7 +47,7 @@ function Membership() {
       try {
 
         const response = await axios.get(
-          "http://localhost:5000/api/users/profile",
+          `${import.meta.env.VITE_API_URL}/api/users/profile`,
           {
             headers: {
               Authorization: `Bearer ${token}`
@@ -74,7 +74,7 @@ function Membership() {
 
           const membershipResponse =
             await axios.get(
-              `http://localhost:5000/api/memberships/user/${userData.id}`,
+              `${import.meta.env.VITE_API_URL}/api/memberships/user/${userData.id}`,
               {
                 headers: {
                   Authorization: `Bearer ${token}`
@@ -172,7 +172,7 @@ function Membership() {
       );
 
       const response = await axios.post(
-        "http://localhost:5000/api/memberships",
+        `${import.meta.env.VITE_API_URL}/api/memberships`,
         submitData,
         {
           headers: {

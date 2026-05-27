@@ -21,7 +21,7 @@ function Members() {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/memberships",
+        `${import.meta.env.VITE_API_URL}/api/memberships`,
         {
           headers: {
             Authorization: `Bearer ${adminToken}`
@@ -58,7 +58,7 @@ function Members() {
     try {
 
       await axios.put(
-        `http://localhost:5000/api/memberships/approve/${id}`,
+        `${import.meta.env.VITE_API_URL}/api/memberships/approve/${id}`,
         {},
         {
           headers: {
@@ -93,7 +93,7 @@ function Members() {
     try {
 
       await axios.put(
-        `http://localhost:5000/api/memberships/reject/${id}`,
+        `${import.meta.env.VITE_API_URL}/api/memberships/reject/${id}`,
         {
           reason
         },
@@ -277,7 +277,7 @@ function Members() {
                         </p>
                         <div className="overflow-hidden rounded-2xl border border-cyan-400/10 bg-slate-950 group/img shadow-md">
                           <img
-                            src={`http://localhost:5000/${member.paymentScreenshot.replace(/\\/g, "/")}`}
+                            src={`${import.meta.env.VITE_API_URL}/${member.paymentScreenshot.replace(/\\/g, "/")}`}
                             alt="Payment Screenshot Verification Node"
                             className="w-full h-72 object-cover group-hover/img:scale-[1.02] transition duration-700 select-none pointer-events-none grayscale-[15%] group-hover/img:grayscale-0"
                           />

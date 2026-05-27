@@ -29,7 +29,7 @@ function Certificates() {
 
       const registrationResponse =
         await axios.get(
-          "http://localhost:5000/api/registrations",
+          `${import.meta.env.VITE_API_URL}/api/registrations`,
           {
             headers: {
               Authorization: `Bearer ${adminToken}`
@@ -52,7 +52,7 @@ function Certificates() {
 
       const certificateResponse =
         await axios.get(
-          "http://localhost:5000/api/certificates",
+          `${import.meta.env.VITE_API_URL}/api/certificates`,
           {
             headers: {
               Authorization: `Bearer ${adminToken}`
@@ -96,7 +96,7 @@ function Certificates() {
       const response =
         await axios.post(
 
-          "http://localhost:5000/api/certificates/generate",
+          `${import.meta.env.VITE_API_URL}/api/certificates/generate`,
 
           {
             userId,
@@ -283,7 +283,7 @@ function Certificates() {
                             ) : (
 
                               <a
-                                href={`http://localhost:5000/${existingCertificate.certificateUrl}`}
+                                href={`${import.meta.env.VITE_API_URL}/${existingCertificate.certificateUrl}`}
                                 target="_blank"
                                 rel="noreferrer"
                                 className="px-5 py-2 rounded-xl bg-white/5 border border-white/10 text-slate-200 hover:bg-white hover:text-slate-950 hover:border-transparent text-xs font-black font-heading tracking-widest uppercase transition-all duration-300 cursor-pointer text-center inline-block"

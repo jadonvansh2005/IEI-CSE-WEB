@@ -12,7 +12,7 @@ function Events() {
     const fetchEvents = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/events"
+          `${import.meta.env.VITE_API_URL}/api/events`
         );
         setEvents(response.data);
       } catch (error) {

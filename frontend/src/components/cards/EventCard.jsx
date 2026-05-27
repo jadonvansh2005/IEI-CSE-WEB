@@ -36,7 +36,7 @@ function EventCard({ event }) {
 
         const response = await axios.post(
 
-          "http://localhost:5000/api/registrations",
+          `${import.meta.env.VITE_API_URL}/api/registrations`,
 
           {
             eventId: event.id
@@ -91,7 +91,7 @@ function EventCard({ event }) {
       <div className="relative h-56 overflow-hidden">
 
         <img
-          src={`http://localhost:5000/${event.image?.replace(/\\/g, "/")}`}
+          src={`${import.meta.env.VITE_API_URL}/${event.image?.replace(/\\/g, "/")}`}
           alt={event.title}
           className="w-full h-full object-cover hover:scale-105 transition duration-700"
         />

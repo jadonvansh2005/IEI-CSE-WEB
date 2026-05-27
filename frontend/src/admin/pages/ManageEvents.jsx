@@ -37,7 +37,7 @@ function ManageEvents() {
     try {
 
       const response = await axios.get(
-        "http://localhost:5000/api/events"
+        `${import.meta.env.VITE_API_URL}/api/events`
       );
 
       setEvents(response.data);
@@ -138,7 +138,7 @@ function ManageEvents() {
       }
 
       const response = await axios.post(
-        "http://localhost:5000/api/events",
+        `${import.meta.env.VITE_API_URL}/api/events`,
         submitData,
         {
           headers: {
@@ -198,7 +198,7 @@ function ManageEvents() {
     try {
 
       await axios.delete(
-        `http://localhost:5000/api/events/${id}`,
+        `${import.meta.env.VITE_API_URL}/api/events/${id}`,
         {
           headers: {
             Authorization: `Bearer ${adminToken}`
@@ -405,7 +405,7 @@ function ManageEvents() {
                   {/* POSTER RENDER SLOT */}
                   <div className="relative h-60 w-full overflow-hidden bg-slate-950">
                     <img
-                      src={`http://localhost:5000/${event.image?.replace(/\\/g, "/")}`}
+                      src={`${import.meta.env.VITE_API_URL}/${event.image?.replace(/\\/g, "/")}`}
                       alt={event.title}
                       className="w-full h-full object-cover transform scale-100 group-hover:scale-102 transition-transform duration-500"
                     />

@@ -118,7 +118,7 @@ function Dashboard() {
                               certificate.eventId === registration.event.id
                           ) ? (
                             <a
-                              href={`http://localhost:5000/${
+                              href={`${import.meta.env.VITE_API_URL}/${
                                 user.certificates.find(
                                   (certificate) =>
                                     certificate.eventId === registration.event.id

@@ -32,7 +32,7 @@ function EventPayment() {
     try {
 
       const response = await axios.get(
-        `http://localhost:5000/api/events/${id}`
+        `${import.meta.env.VITE_API_URL}/api/events/${id}`
       );
 
       setEvent(response.data);
@@ -102,7 +102,7 @@ function EventPayment() {
         localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5000/api/registrations",
+        `${import.meta.env.VITE_API_URL}/api/registrations`,
         formData,
         {
           headers: {
@@ -198,7 +198,7 @@ function EventPayment() {
           <div className="mt-6 flex flex-col items-center">
 
             <img
-              src="/qr.png"
+              src={`${import.meta.env.VITE_API_URL}/qr.png`}
               alt="QR Payment"
               className="w-72 h-72 object-contain rounded-2xl shadow-lg border p-2"
             />
