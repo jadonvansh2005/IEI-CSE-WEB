@@ -47,7 +47,8 @@ const adminSignup = async (req, res) => {
     const {
       name,
       email,
-      password
+      password,
+      phone
     } = req.body;
 
     const existingAdmin =
@@ -67,6 +68,8 @@ const adminSignup = async (req, res) => {
 
     const hashedPassword =
       await bcrypt.hash(password, 10);
+    
+    console.log(req.body);
 
     const admin =
       await prisma.user.create({
@@ -75,6 +78,7 @@ const adminSignup = async (req, res) => {
           name,
           email,
           password: hashedPassword,
+          phone,
           role: "admin"
         }
 

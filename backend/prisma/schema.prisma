@@ -12,8 +12,8 @@ model User {
   name      String
   email     String   @unique
   phone     String
-  branch    String
-  year      String
+  branch    String?
+  year      String?
   password  String
   role      String   @default("user")
   isBlocked Boolean @default(false)

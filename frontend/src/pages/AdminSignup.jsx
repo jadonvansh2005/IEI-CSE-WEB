@@ -15,6 +15,9 @@ function AdminSignup() {
   const [password, setPassword] =
     useState("");
 
+  const [phone, setPhone] =
+  useState("");
+
   const [loading, setLoading] =
     useState(false);
 
@@ -31,7 +34,8 @@ function AdminSignup() {
         {
           name,
           email,
-          password
+          password,
+          phone
         }
       );
 
@@ -111,6 +115,17 @@ function AdminSignup() {
             value={email}
             onChange={(e) =>
               setEmail(e.target.value)
+            }
+            className="w-full bg-slate-950/60 border border-cyan-500/20 text-white p-4 rounded-xl placeholder-slate-500 font-medium text-sm focus:outline-none focus:border-emerald-400 focus:ring-4 focus:ring-emerald-500/10 mb-4 shadow-inner transition-all duration-300"
+            required
+          />
+
+          <input
+            type="text"
+            placeholder="Phone Number"
+            value={phone}
+            onChange={(e) =>
+              setPhone(e.target.value)
             }
             className="w-full bg-slate-950/60 border border-cyan-500/20 text-white p-4 rounded-xl placeholder-slate-500 font-medium text-sm focus:outline-none focus:border-emerald-400 focus:ring-4 focus:ring-emerald-500/10 mb-4 shadow-inner transition-all duration-300"
             required
