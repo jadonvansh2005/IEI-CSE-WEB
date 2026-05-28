@@ -119,10 +119,12 @@ function Dashboard() {
                           ) ? (
                             <a
                               href={`${import.meta.env.VITE_API_URL}/${
-                                user.certificates.find(
-                                  (certificate) =>
-                                    certificate.eventId === registration.event.id
-                                ).certificateUrl
+                                user.certificates
+                                  .find(
+                                    (certificate) =>
+                                      certificate.eventId === registration.event.id
+                                  )
+                                  .certificateUrl.replace(/\\/g, "/")
                               }`}
                               target="_blank"
                               rel="noreferrer"

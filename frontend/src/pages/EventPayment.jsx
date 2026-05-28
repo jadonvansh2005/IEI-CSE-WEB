@@ -198,7 +198,7 @@ function EventPayment() {
           <div className="mt-6 flex flex-col items-center">
 
             <img
-              src={`${import.meta.env.VITE_API_URL}/qr.png`}
+              src="/qr.png"
               alt="QR Payment"
               className="w-72 h-72 object-contain rounded-2xl shadow-lg border p-2"
             />
