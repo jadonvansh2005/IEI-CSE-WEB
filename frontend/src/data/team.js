@@ -98,10 +98,10 @@ const team = {
     {
       name: "Dhruv Kumar Patel",
       role: "Discipline Head",
-      image: "https://randomuser.me/api/portraits/men/58.jpg",
+      image: "dhruv.jpg",
       intro: "I am Dhruv Patel an active member of The Institution of Engineers (India) and I currently serves as the Discipline Head. My vision for IEI is to build a dynamic platform where students can explore modern technologies, develop practical skills, and collaborate on impactful engineering projects that address real-world challenges. Beyond this role in IEI, I am also passionate about technology, innovation, and leadership. I actively works on projects related to AI, software development, and digital platforms, aiming to leverage technology to solve meaningful problems and create positive societal impact.",
       email: "dhruvpatel8903@gmail.com",
-      linkedin: "#",
+      linkedin: "https://www.linkedin.com/in/dhruvkrpatel?utm_source=share_via&utm_content=profile&utm_medium=member_android",
       phone: "+91 9179103108",
     },
     {
