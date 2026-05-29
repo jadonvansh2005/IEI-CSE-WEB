@@ -34,7 +34,7 @@ function Login() {
         JSON.stringify(response.data.user)
       );
 
-      navigate(0);
+      
       toast.success(response.data.message);
       navigate("/dashboard");
     } catch (error) {
@@ -44,6 +44,7 @@ function Login() {
     } finally {
       setLoading(false);
     }
+    navigate(0);
   };
 
   return (
