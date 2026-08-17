@@ -35,7 +35,7 @@ const team = {
     {
       name: "Manisha Pathak",
       role: "Vice President",
-      image: "WhatsApp Image 2026-08-16 at 19.22.39-Manisha Pathak.jpeg",
+      image: "Manisha Pathak.jpeg",
       intro: `Good morning/afternoon everyone.
 
       I am honored to serve as the Vice President of the Institution of Engineers (India) Student Chapter at MITS Gwalior. IEI is one of India's premier professional engineering organizations, dedicated to promoting excellence in engineering education, innovation, research, and professional ethics. As Vice President, I work closely with the President, faculty coordinators, and executive members to organize technical activities and encourage active participation among students.
@@ -161,7 +161,7 @@ const team = {
     {
       name: "Priyanshi Maheshwari",
       role: "Tech & Tour Head",
-      image: "https://randomuser.me/api/portraits/men/60.jpg",
+      image: "priyanshi.jpeg",
       intro: `Introduction
 
       I’m Priyanshi Maheshwari, serving as the Tour & Tech Head of IEI.
