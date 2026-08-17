@@ -2,7 +2,7 @@ const team = {
   faculty: {
     name: "Amit Kumar Manjhvar",
     role: "Faculty Co-ordinator",
-    image: "https://randomuser.me/api/portraits/men/32.jpg",
+    image: "AKM1 - Amit Kumar.png",
     intro:
       "Prof. Amit Kumar Manjhvar is an Assistant Professor in the Department of Computer Science & Engineering at Madhav Institute of Technology & Science (MITS), Gwalior (a Deemed University) & Having more than 10 Years Experience in higher education, curriculum delivery, and student mentoring within the Computer Science. In IEI student chapter Prof. Amit Kumar Manjhvar Faculty Advisor of IEI Student Chapter.",
     email: "amitkumar@mitsgwalior.in",
@@ -14,7 +14,7 @@ const team = {
     {
       name: "Mona Pandey Sharma",
       role: "President",
-      image: "https://randomuser.me/api/portraits/women/44.jpg",
+      image: "mona pandey sharma.jpg",
       intro: `About the Chapter
       Welcome to the Institution of Engineers (India) Students' Chapter, Department of Computer Science & Engineering.
       
@@ -35,7 +35,7 @@ const team = {
     {
       name: "Manisha Pathak",
       role: "Vice President",
-      image: "https://randomuser.me/api/portraits/women/65.jpg",
+      image: "WhatsApp Image 2026-08-16 at 19.22.39-Manisha Pathak.jpeg",
       intro: `Good morning/afternoon everyone.
 
       I am honored to serve as the Vice President of the Institution of Engineers (India) Student Chapter at MITS Gwalior. IEI is one of India's premier professional engineering organizations, dedicated to promoting excellence in engineering education, innovation, research, and professional ethics. As Vice President, I work closely with the President, faculty coordinators, and executive members to organize technical activities and encourage active participation among students.
@@ -64,7 +64,7 @@ const team = {
     {
       name: "Jigyasa Mishra",
       role: "Secretary",
-      image: "https://randomuser.me/api/portraits/women/50.jpg",
+      image: "IMG-20260817-WA0003 - Jigyasa Mishra.jpg",
       intro: `As the Secretary of the IEI Chapter at MITS Gwalior, I am committed to promoting engineering education, professional development, innovation, and technical excellence. My role involves coordinating IEI activities, organizing seminars, workshops, and expert lectures, and encouraging students and faculty to actively participate in technical and professional initiatives.
 
       Vision
@@ -97,7 +97,7 @@ const team = {
     {
       name: "Vansh Pratap Singh Jadon",
       role: "Technical Head",
-      image: "https://randomuser.me/api/portraits/men/22.jpg",
+      image: "vansh image.png",
       intro:  "I’m Vansh Pratap Singh Jadon, serving as the Technical Head of the IEI-CSE Student Chapter at MITS-DU. I am passionate about software development, Artificial Intelligence, Machine Learning, and building real-world technology solutions. As Technical Head, my vision is to build a strong technical culture within IEI by encouraging students to learn, experiment, collaborate, and turn ideas into practical projects. My responsibilities include leading the technical team, planning and executing coding and technology-focused initiatives, supporting technical events, and mentoring students in their development journey. Through IEI, I aim to create a community where students can move beyond theoretical learning, explore emerging technologies, and develop solutions that create meaningful impact.",
       email: "24cs10va145@mitsgwl.ac.in",
       linkedin: "https://www.linkedin.com/in/vansh-pratap-singhjadon-5407b2320",
@@ -115,7 +115,7 @@ const team = {
     {
       name: "Samarth Khare",
       role: "Graphics Head",
-      image: "https://randomuser.me/api/portraits/men/35.jpg",
+      image: "samarth - SAMARTH.png",
       intro: "I’m Samarth Khare, serving as the Graphics Head of the IEI-CSE Student Chapter at MITS-DU. I am passionate about graphic design, visual communication, and creative digital content. As Graphics Head, my vision is to strengthen the visual identity of IEI-CSE through creative, engaging, and professional designs that effectively communicate our ideas and initiatives. My role involves designing graphics for technical events, workshops, announcements, social media, and other chapter activities while working closely with the technical, publicity, and event teams. Through creative design and visual storytelling, I aim to make IEI-CSE’s activities more engaging, recognizable, and impactful for the student community.",
       email: "samarthkhare29@gmail.com",
       linkedin: "https://www.linkedin.com/in/samarth-khare-3b22152a6?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
@@ -124,7 +124,7 @@ const team = {
     {
       name: "Sumit Bhadoria",
       role: "Photography Head",
-      image: "https://randomuser.me/api/portraits/men/30.jpg",
+      image: "sumit.png",
       intro: "Captures and documents IEI events.",
       email: "sumitsbhadoria21@gmail.com",
       linkedin: "https://www.linkedin.com/in/ss-bhadoria-rs2101/",
@@ -133,7 +133,7 @@ const team = {
     {
       name: "Kshitij Kumar Soni",
       role: "Event Coordinator",
-      image: "https://randomuser.me/api/portraits/men/55.jpg",
+      image: "Kshitij.jpeg",
       intro: "As the Event Coordinator of the IEI CSE Student Body, my vision is to build a strong community of developers in our college and promote a culture of coding and innovation. Through workshops, technical sessions, and collaborative events, I aim to encourage students to explore technology, build real-world projects, and grow together.Beyond technical skills, I also focus on the overall personality development of our members by promoting leadership, communication, teamwork, and confidence, helping students grow into capable professionals.",
       email: "kshitijkumarsoni30@gmail.com",
       linkedin: "https://www.linkedin.com/in/codeinthehorizon",
@@ -151,7 +151,7 @@ const team = {
     {
       name: "Samidha Patel",
       role: "Treasurer",
-      image: "https://randomuser.me/api/portraits/men/60.jpg",
+      image: "0901CS231123 SAMIDHA PATEL.jpeg",
       intro: "I am a motivated and enthusiastic student with a vision to grow professionally and contribute positively to society. My mission is to continuously improve my technical and communication skills. Through my experience in IEI (Institution of Engineers India), I have participated in technical activities and gained valuable knowledge, teamwork, and leadership skills.",
       email: "23cs10sa121@mitsgwl.ac.in",
       linkedin: "https://www.linkedin.com/in/samidha-patel-568609317/",
