@@ -4,10 +4,10 @@ const team = {
     role: "Faculty Co-ordinator",
     image: "https://randomuser.me/api/portraits/men/32.jpg",
     intro:
-      "Faculty coordinator of IEI CSE chapter guiding students in technical and professional activities.",
-    email: "amit@mits.edu",
-    linkedin: "#",
-    phone: "+91 9000000001",
+      "Prof. Amit Kumar Manjhvar is an Assistant Professor in the Department of Computer Science & Engineering at Madhav Institute of Technology & Science (MITS), Gwalior (a Deemed University) & Having more than 10 Years Experience in higher education, curriculum delivery, and student mentoring within the Computer Science. In IEI student chapter Prof. Amit Kumar Manjhvar Faculty Advisor of IEI Student Chapter.",
+    email: "amitkumar@mitsgwalior.in",
+    linkedin: "https://www.linkedin.com/in/amit-kumar-manjhvar-32bb76156/",
+    phone: "+91 7987704987",
   },
 
   core: [
@@ -15,28 +15,72 @@ const team = {
       name: "Mona Pandey Sharma",
       role: "President",
       image: "https://randomuser.me/api/portraits/women/44.jpg",
-      intro: "Leads the IEI CSE chapter and coordinates all strategic initiatives.",
-      email: "mona@iei.com",
-      linkedin: "#",
-      phone: "+91 9000000002",
+      intro: `About the Chapter
+      Welcome to the Institution of Engineers (India) Students' Chapter, Department of Computer Science & Engineering.
+      
+      Vision & Mission
+      Vision: To cultivate a research-driven, innovative, and ethically grounded hub of computer science engineers solving modern technical challenges.
+      
+      Mission:
+      - Host focused hackathons, technical workshops, and coding symposia in emerging technologies.
+      - Bridge academia and industry through mentorship, expert sessions, and collaborative projects.
+      - Foster peer-led learning, multidisciplinary research, and professional engineering standards.
+      
+      President’s Note & Experience:
+      Leading the IEI CSE chapter has underscored the power of collaborative problem-solving. It is more than a departmental society; it is an active launchpad where curiosity turns into prototypes and student ideas gain structured execution.`,
+      email: "monap2508@mitsgwalior.in",
+      linkedin: "https://www.linkedin.com/in/mona-pandey-2842ab216?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      phone: "+91 9340999410",
     },
     {
       name: "Manisha Pathak",
-      role: "Co-Convenor",
+      role: "Vice President",
       image: "https://randomuser.me/api/portraits/women/65.jpg",
-      intro: "Handles event execution and coordination.",
-      email: "manisha@iei.com",
-      linkedin: "#",
-      phone: "+91 9000000003",
+      intro: `Good morning/afternoon everyone.
+
+      I am honored to serve as the Vice President of the Institution of Engineers (India) Student Chapter at MITS Gwalior. IEI is one of India's premier professional engineering organizations, dedicated to promoting excellence in engineering education, innovation, research, and professional ethics. As Vice President, I work closely with the President, faculty coordinators, and executive members to organize technical activities and encourage active participation among students.
+      
+      Vision
+      
+      My vision is to create a dynamic engineering community where students continuously enhance their technical knowledge, leadership skills, and innovative thinking. I aspire to strengthen the role of IEI in promoting research, industry collaboration, entrepreneurship, and sustainable engineering practices.
+      
+      Mission
+      
+      My mission as Vice President is to:
+      - Organize technical seminars, workshops, and expert lectures.
+      - Promote research, innovation, and interdisciplinary learning.
+      - Encourage student participation in technical competitions and conferences.
+      - Build stronger collaboration between academia and industry.
+      - Develop leadership, teamwork, and professional ethics among IEI members.
+      - Increase awareness of emerging technologies such as Artificial Intelligence, Machine Learning, IoT, Cybersecurity, and Sustainable Engineering.
+      
+      Experience in IEI
+      
+      As Vice President of the IEI Student Chapter, I have actively contributed to planning and organizing various technical and professional development activities. My responsibilities include coordinating events, supporting student members, managing executive committee activities, promoting membership, and representing the chapter during institutional programs. Through these experiences, I have developed strong leadership, communication, event management, and organizational skills while contributing to the growth and success of the IEI chapter.`,
+      email: "manisha.pits1995@mitsgwalior.in",
+      linkedin: "https://www.linkedin.com/in/manisha-pathak-b2482925b?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      phone: "+91 9691206039",
     },
     {
       name: "Jigyasa Mishra",
       role: "Secretary",
       image: "https://randomuser.me/api/portraits/women/50.jpg",
-      intro: "Manages documentation and communication.",
-      email: "jigyasa@iei.com",
-      linkedin: "#",
-      phone: "+91 9000000004",
+      intro: `As the Secretary of the IEI Chapter at MITS Gwalior, I am committed to promoting engineering education, professional development, innovation, and technical excellence. My role involves coordinating IEI activities, organizing seminars, workshops, and expert lectures, and encouraging students and faculty to actively participate in technical and professional initiatives.
+
+      Vision
+      
+      To foster innovation, professional excellence, and knowledge sharing among engineering students and professionals.
+      
+      Mission
+      
+      To promote technical education, research, industry interaction, and professional development through meaningful IEI activities.
+      
+      Experience in IEI
+      
+      Serving as Secretary, I have been actively involved in coordinating and supporting various academic, technical, and professional activities of the IEI Chapter. Through this role, I aim to contribute to the smooth functioning of the chapter while creating meaningful opportunities for students to learn, collaborate, and grow.`,
+      email: "jigyasa@mitsgwalior.in",
+      linkedin: "https://www.linkedin.com/in/jigyasa-mishra-854999142?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+      phone: "+91 9584011118",
     },
     {
       name: "Aman Pandey",
@@ -51,13 +95,13 @@ const team = {
 
   heads: [
     {
-      name: "XYZ",
+      name: "Vansh Pratap Singh Jadon",
       role: "Technical Head",
       image: "https://randomuser.me/api/portraits/men/22.jpg",
-      intro: "Leads the technical team and manages coding events.",
-      email: "tech@iei.com",
-      linkedin: "#",
-      phone: "+91 9000000006",
+      intro:  "I’m Vansh Pratap Singh Jadon, serving as the Technical Head of the IEI-CSE Student Chapter at MITS-DU. I am passionate about software development, Artificial Intelligence, Machine Learning, and building real-world technology solutions. As Technical Head, my vision is to build a strong technical culture within IEI by encouraging students to learn, experiment, collaborate, and turn ideas into practical projects. My responsibilities include leading the technical team, planning and executing coding and technology-focused initiatives, supporting technical events, and mentoring students in their development journey. Through IEI, I aim to create a community where students can move beyond theoretical learning, explore emerging technologies, and develop solutions that create meaningful impact.",
+      email: "24cs10va145@mitsgwl.ac.in",
+      linkedin: "https://www.linkedin.com/in/vansh-pratap-singhjadon-5407b2320",
+      phone: "+91 7415564423",
     },
     {
       name: "Sneha",
@@ -66,25 +110,25 @@ const team = {
       intro: "Vision and Mission:To create a strong and influential voice for IEI CSE that connects students, ideas, and opportunities through impactful marketing and outreach,Experience:Leading the promotion and outreach of IEI CSE activities by managing promotion strategies, social media, and content writing to enhance visibility and student engagement.",
       email: "sneha044l2005@gmail.com",
       linkedin: "https://www.linkedin.com/in/sneha-96228632b?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
-      phone: "+91 8839053207",
+      phone: "+91 xxxxxxxxxx",
     },
     {
-      name: "Samarth",
+      name: "Samarth Khare",
       role: "Graphics Head",
       image: "https://randomuser.me/api/portraits/men/35.jpg",
-      intro: "Responsible for design and visual content.",
-      email: "design@iei.com",
-      linkedin: "#",
-      phone: "+91 9000000008",
+      intro: "I’m Samarth Khare, serving as the Graphics Head of the IEI-CSE Student Chapter at MITS-DU. I am passionate about graphic design, visual communication, and creative digital content. As Graphics Head, my vision is to strengthen the visual identity of IEI-CSE through creative, engaging, and professional designs that effectively communicate our ideas and initiatives. My role involves designing graphics for technical events, workshops, announcements, social media, and other chapter activities while working closely with the technical, publicity, and event teams. Through creative design and visual storytelling, I aim to make IEI-CSE’s activities more engaging, recognizable, and impactful for the student community.",
+      email: "samarthkhare29@gmail.com",
+      linkedin: "https://www.linkedin.com/in/samarth-khare-3b22152a6?utm_source=share_via&utm_content=profile&utm_medium=member_ios",
+      phone: "+91 9179329494",
     },
     {
-      name: "XYZ",
+      name: "Sumit Bhadoria",
       role: "Photography Head",
       image: "https://randomuser.me/api/portraits/men/30.jpg",
       intro: "Captures and documents IEI events.",
-      email: "photo@iei.com",
-      linkedin: "#",
-      phone: "+91 9000000009",
+      email: "sumitsbhadoria21@gmail.com",
+      linkedin: "https://www.linkedin.com/in/ss-bhadoria-rs2101/",
+      phone: "+91 8962074730",
     },
     {
       name: "Kshitij Kumar Soni",
@@ -108,20 +152,36 @@ const team = {
       name: "Samidha Patel",
       role: "Treasurer",
       image: "https://randomuser.me/api/portraits/men/60.jpg",
-      intro: "Manages financial operations of the society.",
-      email: "finance@iei.com",
-      linkedin: "#",
-      phone: "+91 9000000012",
+      intro: "I am a motivated and enthusiastic student with a vision to grow professionally and contribute positively to society. My mission is to continuously improve my technical and communication skills. Through my experience in IEI (Institution of Engineers India), I have participated in technical activities and gained valuable knowledge, teamwork, and leadership skills.",
+      email: "23cs10sa121@mitsgwl.ac.in",
+      linkedin: "https://www.linkedin.com/in/samidha-patel-568609317/",
+      phone: "+91 9039650790",
     },
 
     {
       name: "Priyanshi Maheshwari",
       role: "Tech & Tour Head",
       image: "https://randomuser.me/api/portraits/men/60.jpg",
-      intro: "Manages financial operations of the society.",
-      email: "finance@iei.com",
-      linkedin: "#",
-      phone: "+91 9000000012",
+      intro: `Introduction
+
+      I’m Priyanshi Maheshwari, serving as the Tour & Tech Head of IEI.
+      
+      Vision
+      
+      To make IEI a platform where students learn beyond classrooms, explore real-world engineering, and connect technology with practical experience.
+      
+      Mission
+      
+      My mission is to organise meaningful technical events, workshops, project activities, and industry visits, while creating opportunities for students to learn from professionals, explore emerging technologies, and collaborate.
+      
+      Experience with IEI
+      
+      As Tour & Tech Head, I’ve been involved in planning, coordinating, and promoting technical and exposure-oriented activities, with the aim of making student participation more practical, interactive, and valuable.`,
+            
+
+      email: "priyanshimaheshwari46@gmail.com",
+      linkedin: "https://www.linkedin.com/in/priyanshi-maheshwari-04794b329",
+      phone: "+91 8602491998",
     },
   ],
 
