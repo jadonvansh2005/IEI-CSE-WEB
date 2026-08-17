@@ -97,7 +97,7 @@ const team = {
     {
       name: "Vansh Pratap Singh Jadon",
       role: "Technical Head",
-      image: "vansh image.png",
+      image: "vansh.png",
       intro:  "I’m Vansh Pratap Singh Jadon, serving as the Technical Head of the IEI-CSE Student Chapter at MITS-DU. I am passionate about software development, Artificial Intelligence, Machine Learning, and building real-world technology solutions. As Technical Head, my vision is to build a strong technical culture within IEI by encouraging students to learn, experiment, collaborate, and turn ideas into practical projects. My responsibilities include leading the technical team, planning and executing coding and technology-focused initiatives, supporting technical events, and mentoring students in their development journey. Through IEI, I aim to create a community where students can move beyond theoretical learning, explore emerging technologies, and develop solutions that create meaningful impact.",
       email: "24cs10va145@mitsgwl.ac.in",
       linkedin: "https://www.linkedin.com/in/vansh-pratap-singhjadon-5407b2320",
